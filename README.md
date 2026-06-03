@@ -17,4 +17,4 @@ In this simple tip calculator app, all you have to do is put in the price paid f
 choose the quality of service, and the app will return your total price, with the tip calculated.
 Additionally, when clicking on empty space, the app will change between 1 of 5 colors.
 
-(Edge case: If the user attempts to put anything that isn't numbers, it will reject that input.
+(Edge cases: If the user attempts to put anything that isn't numbers/ greater than $0, it will reject that input.
