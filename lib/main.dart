@@ -84,6 +84,9 @@ class _FormInputWidgetState extends State<FormInputWidget> {
                 if (double.tryParse(value) == null) {
                   return "Please enter a number";
                 }
+                if (double.tryParse(value)! <= 0){
+                  return "Choose a valid cost above 0 dollars.";
+                }
                 return null;
               },
             ),
